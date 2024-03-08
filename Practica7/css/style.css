@@ -1,0 +1,68 @@
+iframe{ /*Esta línea selecciona todos los elementos */
+  position: fixed; /* Establece la propiedad de posición de los elemento*/
+  min-width: 100%;  /*Establece el ancho y la altura mínimos de los elementos*/
+  min-height: 100%;  /*Establece el ancho y la altura mínimos de los elementos*/
+  top: 50%;   /*Define las distancias desde el borde superior y el borde izquierdo*/
+  left: 50%; /* Define las distancias desde el borde superior y el borde izquierdo*/
+  transform: translateX(-50%) translateY(-50%); /* centrado completamente en la pantalla.*/
+  z-index: -1;  /*coloca el <iframe> en un nivel inferior al resto del contenido de la página*/
+}
+.cuadro{ /*  selecciona todos los elementos que tengan la clase*/
+  width: 10%;  /* establece el ancho de los elementos seleccionados */
+  margin-left: auto;/*  establecen los márgenes izquierdo y derecho*/
+  margin-right: auto;/*establecen los márgenes izquierdo y derecho*/
+      
+}
+.cuadro{  /*establece un selector de clase*/
+  color:rgb(82, 204, 78); /* establece el color del texto de los elementos seleccionados */
+  text-align: center; /*establece la alineación del texto*/
+  border-style: double; /*establece el estilo del borde */
+}
+.LineaPrincipal{
+  border-left: thick solid #665aa8;  /*establecer un borde izquierdo en un elemento*/
+  height: 14%;     /* largo de la linea */
+  left: 50%;   /* linea a mitad de la pagina */
+  position: absolute;   /* Para que la linea sea visible*/
+}
+.LineaMasLarga{
+  margin-top: 6.5%; /* Posicion de la linea a lo largo*/
+  margin-left: 25%; /* juega con los valores para colocar la linea*/
+  border: thick solid #665aa8; /*establece un borde de color */
+  width: 50%; /* línea establece el ancho*/
+  position: absolute; /*establece la posición del elemento */
+}
+.LineaDosCorta{ /*selecciona todos los elementos */
+  margin-top: 6.5%; /*establece el margen de lado superior*/
+  border-left: thick solid #665aa8; /* establece el margen de lado izquierdo*/
+  height: 14%;  /*Establece la altura del elemento */
+  left: 25.5%;/* Posiciona el elemento a una distancia del contenedor*/
+  position: absolute; /*se posicionará con respecto a su primer contenedor*/
+}
+.LineaTresCorta{  /*selecciona todos los elementos */
+  margin-top: 7%; /*establece el margen de lado superior*/
+  border-left: thick solid #665aa8; /* establece el margen de lado izquierdo*/
+  height: 14%;  /*Establece la altura del elemento */
+  left: 76%; /* Posiciona el elemento a una distancia del contenedor*/
+  position: absolute; /*se posicionará con respecto a su primer contenedor*/
+}
+.SubCuadroUno{ /*selecciona todos los elementos */
+   width: 20%;  /*Establece el ancho de los elementos */
+   margin-top: 13.5%; /*Establece el margen superior de los elementos  */
+   margin-left: 15%; /*Establece el margen superior de los elementos  */
+}
+.SubCuadroUno{ /*selecciona todos los elementos */
+  color:rgb(104, 214, 31);/* establece el color del texto */
+  text-align: center;/*alinea el texto dentro de los elementos */
+  border-style: double;/* define el estilo del borde de los elementos*/
+}
+.SubCuadroDos{/*selecciona todos los elementos */
+  width: 20%; /*Establece el ancho de los elementos */
+  margin-top: -3.5%; /*Establece el margen superior de los elementos  */
+  margin-left: auto;  /*centrar horizontalmente un elemento*/
+  margin-right: 13%;  /*Establece el margen superior de los elementos  */
+}
+.SubCuadroDos{ /*selecciona todos los elementos */
+  color:rgb(44, 218, 9);/* establece el color del texto */
+  text-align: center;  /*alinea el texto dentro de los elementos */
+  border-style: double; /* define el estilo del borde de los elementos*/
+}
